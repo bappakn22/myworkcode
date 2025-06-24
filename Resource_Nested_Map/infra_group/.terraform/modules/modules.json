@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"rg-name","Source":"../module_group/azurerm_resource_group","Dir":"../module_group/azurerm_resource_group"},{"Key":"stg-name","Source":"../module_group/azurerm_storage_account","Dir":"../module_group/azurerm_storage_account"}]}
