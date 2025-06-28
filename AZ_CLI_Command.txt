@@ -32,3 +32,7 @@ az vm create -g MyResourceGroup --name MyLinuxVM --image Ubuntu2404 --admin-user
 
 
 az group delete -n japan_rg (resource group name) - Delete resource group
+
+
+
+
