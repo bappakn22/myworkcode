@@ -1,0 +1,29 @@
+azure cli commnad line use
+
+az login - Use for login azure account
+
+az --help - form help
+
+az lock create --name MyResourceLock --lock-type CanNotDelete --resource-group bharat_rg
+ 
+az lock list --output table / -o table - lock list check karne ke liye
+
+az lock delete --name MyResourceLock --resource-group bharat_rg - remove lock form the resource
+
+az account clear -  Clear all subscriptions from the CLI's local cache.
+
+az account list (--output table / -o table) - see the account list in table format if use mentioned command in brackets
+
+az account list-locations (--output table / -o table) - List supported regions for the current subscription.
+
+az group create --location or -l eastus (location name) --name or -n (rg name) - Resource group creation
+
+az storage account create -n japanstg -g new_japan -l japaneast  --sku Standard_LRS --kind Storagev2 --access-tier Hot - Storage account creation
+
+az storage container create --name mycontainer --account-name mystgeast
+
+az group delete -n japan_rg (resource group name) - Delete resource group
+
+az vm create -g MyResourceGroup --name MyLinuxVM --image Ubuntu2404 --admin-username devopsadmin --size Standard_B1s --generate-ssh-key
+
+az vm create -g MyResourceGroup --name MyLinuxVM --image Ubuntu2404 --admin-username devopsadmin --size Standard_B1s --generate-ssh-key
