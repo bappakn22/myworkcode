@@ -33,3 +33,6 @@ az vm create -g MyResourceGroup --name MyLinuxVM --image Ubuntu2404 --admin-user
 
 
 az vm create -g MyResourceGroup --name MyLinuxVM --image Ubuntu2404 --admin-username devopsadmin --size Standard_B1s --generate-ssh-key
+
+
+az vm create -g MyResourceGroup --name MyLinuxVM --image Ubuntu2404 --admin-username devopsadmin --size Standard_B1s --generate-ssh-key
