@@ -36,3 +36,11 @@ az group delete -n japan_rg (resource group name) - Delete resource group
 
 
 
+new addd 123456
+
+
+
+
+
+
+
